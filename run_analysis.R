@@ -32,7 +32,7 @@ required_x <- full_x[, mean_std_col_ids]
 activities <- read.table("activity_labels.txt")
 
 #To the fully, add the activities as another column
-activities_with_name <- merge(full_y,activities, by.x="V1", by.y="V1", sort=FALSE)
+activities_with_name <- cbind(full_y,activities[full_y[,1],2])
 
 #Now we are ready to build the final clean data table
 #Before that let us name the columns to proper names
