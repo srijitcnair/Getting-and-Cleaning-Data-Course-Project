@@ -32,5 +32,4 @@
 
 * tidy_data : This is the final table that we want that has subject information, activity and the required data combined. It has 10299 rows and 69 columns
 
-* final_data : This is the final calculated mean of each observation grouped by SubjectId and Activity Name. This data table has 180 rows and 68 cols
-
+* final_data : This is the final calculated mean of each observation grouped by SubjectId and Activity Name. This data table has 180 rows and 68 cols. This data will be written to the "final_data.txt" file in the working directory.
